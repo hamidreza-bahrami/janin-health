@@ -20,7 +20,7 @@ x = data['x']
 
 def show_page():
     st.write("<h4 style='text-align: center; color: blue;'>تشخیص ناهنجاری جنین 🧬</h4>", unsafe_allow_html=True)
-    st.write("<h6 style='text-align: center; color: black;'>Robo-Ai.ir طراحی شده و توسعه</h6>", unsafe_allow_html=True)
+    st.write("<h6 style='text-align: center; color: black;'>Robo-Ai.ir طراحی و توسعه</h6>", unsafe_allow_html=True)
     st.link_button("Robo-Ai بازگشت به", "https://robo-ai.ir")
     container = st.container(border=True)
     container.write("<h6 style='text-align: right; color: gray;'>تشخیص ناهنجاری جنین با هوش مصنوعی 🔬</h6>", unsafe_allow_html=True)
